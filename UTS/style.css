@@ -1,0 +1,550 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, ol {
+   margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #fdecec;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffd6d6;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #ffabab;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d27e7e;
+}
+
+main section {
+    padding: 40px 0;
+}
+
+.hero-section {
+    background-image: url('pinkbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 100px 0;
+}
+
+.hero-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-text h1 span {
+    color: #d27e7e;
+}
+
+.hero-text p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero-image {
+    max-width: 40%;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: 350px;
+    display: block;
+}
+
+.about-us-section {
+    background-color: #fdecec;
+}
+
+.about-us-content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.about-us-image {
+    max-width: 50%;
+}
+
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about-us-text {
+    max-width: 50%;
+}
+
+.about-us-text h2 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #d27e7e;
+    margin-bottom: 20px;
+}
+
+.about-us-text p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.tumbuh-kembang-page {
+    background-color: #fdecec;
+}
+
+.tumbuh-kembang-header h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #d27e7e;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tumbuh-kembang-section {
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.0);
+}
+
+.tumbuh-kembang-section h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tumbuh-kembang-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.tumbuh-kembang-image {
+    max-width: 40%;
+}
+
+.tumbuh-kembang-image img {
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    border-radius: 8px;
+}
+
+.tumbuh-kembang-text {
+    max-width: 60%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.tumbuh-kembang-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.tumbuh-kembang-text .sumber {
+    font-size: 24px;
+    font-style: italic;
+    color: #777;
+    margin-top: 10px;
+}
+
+.tumbuh-kembang-factors h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.factor-group {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.01);
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.factor-group h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.factor-group ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.factor-image {
+    max-width: 30%;
+}
+
+.factor-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.gangguan-tumbuh-kembang h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gangguan-tumbuh-kembang ol {
+    list-style: decimal;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.0);
+}
+
+.gangguan-tumbuh-kembang ol li {
+    margin-bottom: 15px;
+}
+
+.read-more-link {
+    display: inline-block;
+    background-color: #b27878;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.read-more-link:hover {
+    background-color: #8c5e5e;
+}
+
+.stunting-page {
+    background-color: #fdecec;
+}
+
+.stunting-header h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #d27e7e;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.stunting-definition h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.stunting-definition p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.0);
+}
+
+.stunting-factors-prevention h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.factors {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.0);
+    margin-bottom: 30px;
+}
+
+.factors h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.factors ol {
+    list-style: decimal;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.prevention {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.0);
+}
+
+.prevention h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.prevention-group {
+    margin-bottom: 20px;
+}
+
+.prevention-group h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.prevention-group ol {
+    list-style: decimal;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.rekomendasi-page {
+    background-color: #fdecec;
+}
+
+.rekomendasi-header h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #d27e7e;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rekomendasi-rs, .rekomendasi-mpasi {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+    margin-bottom: 30px;
+}
+
+.rekomendasi-rs h2, .rekomendasi-mpasi h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.rekomendasi-rs p, .rekomendasi-mpasi p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.rekomendasi-rs ol, .rekomendasi-mpasi ol, .rekomendasi-mpasi ul {
+    list-style: decimal;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.rekomendasi-mpasi ul {
+    list-style: disc;
+}
+
+.rekomendasi-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rekomendasi-image img {
+    max-width: 50%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.makanan-sehat-page {
+    background-color: #fdecec;
+}
+
+.makanan-sehat-page .section-title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #d27e7e;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.makanan-sehat-group {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.makanan-sehat-group h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.makanan-sehat-group p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.makanan-sehat-group ol {
+    list-style: decimal;
+    margin-left: 30px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.makanan-sehat-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.makanan-sehat-image img {
+    max-width: 50%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.contact-section {
+    padding: 80px 0;
+}
+
+.contact-section .section-title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #d27e7e;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.contact-details > div {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.01);
+}
+
+.contact-details h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.contact-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.contact-details p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #ffd6d6;
+    padding: 20px 0;
+    text-align: center;
+    color: #333;
+    font-size: 15px;
+}
